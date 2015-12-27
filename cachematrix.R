@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The second function calculates the inverse of the matrix given by the first function.
-## Furthermore, it will just return the inversion exsisted if it has been calculated before.
+## Furthermore, it will just return the inversion existed if it has been calculated before.
 
 cacheSolve <- function(x, ...) {
   m <- x$getmatrixinversion()
@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
   m
 }
 
-## The following are some examples that show how these two functions work:
+## There are some examples to show how these two functions work:
 
 ## Example 1
 ## > A <- diag(2, 2)
